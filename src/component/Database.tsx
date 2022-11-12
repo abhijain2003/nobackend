@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import '../Styles/Database.css';
-import { useGetAllSchemaQuery } from '../store/schema';
+import { useGetAllSchemaQuery, useDeleteSchemaMutation } from '../store/schema';
 import { useGetAllDataOfSingleSchemaQuery } from '../store/ApiData';
+import { confirmAlert } from 'react-confirm-alert'; // Import
+import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
 
 interface Schema {
     CustomSchema: Array<Object>,
@@ -49,6 +51,24 @@ const Database = () => {
     }, [selectApiKey]);
 
 
+    const [deleteSchema, responseInfo] = useDeleteSchemaMutation();
+    function handleDeleteAPi() {
+        confirmAlert({
+            title: 'Are you Sure you want to Delete?',
+            message: "These will lead to delete all data related to this schema.",
+            buttons: [
+                {
+                    label: 'Yes',
+                    onClick: async () => { await deleteSchema(allAPIKEYS[selectApiKey]) }
+                },
+                {
+                    label: 'No',
+                    onClick: () => { return }
+                }
+            ]
+        })
+    }
+
     return (
         <div id='database'>
             <nav className='navbar-Signup'>
@@ -67,6 +87,7 @@ const Database = () => {
                         }
                     </select>
                     <button onClick={() => handleCopyMSG()} >{isCopied ? 'Copied!' : 'Copy'}</button>
+                    <button onClick={() => handleDeleteAPi()}>Delete</button>
                 </div>
                 <div className='Ruling'>
                     <div className='rules'>
