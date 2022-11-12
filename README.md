@@ -23,6 +23,34 @@ BACKPRESS.com is platform that allow you to create your own custom api, database
 ### GET SINGLE DOCUMENT REQUEST - your_API/unique_id_of_single_document
 
 
+## API PUT/POST REQUEST UNDERSTANDING
+when you send a POST/PUT request to your api you should follow a website policy and structure.
+-> 1. you need to wrap your schema object inside "CustomSchemaData" array<object>[] with keys of 
+      label and value.
+-> 2. you also need to add two more parameters "ownerid" your api end unique point and "ownername" your unique name 
+      
+      for eg. let say your api has 3 parameters such name, email and password of String data type.
+      then your body of POST/PUT request should be.
+      { 
+        "CustomSchemaData": [
+            {
+               "label": "name",
+               "value": "hello world"
+            },
+            {
+               "label": "email",
+               "value": "world@2022.com"
+            },
+            {
+               "label": "password",
+               "value": "password_world"
+            }
+        ],
+        "ownerid": endpoint of your_api/${endpoint},
+        "ownername": by_default_generated_by_website_on_database_page
+      }
+
+
 ## Tech Stack
 
 **Server:** Node, Express, Typescript, Mongoose, Mongodb
