@@ -1,46 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BACKPRESS
 
-## Available Scripts
+BACKPRESS.com is platform that allow you to create your own custom api, database without having coding or backend development knowledge which you can use in your web or app to generate your own product in 5 mins.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## How it works
+1. you go to the website, 
+2. create your account.
+3. you create your custom schema for your api.
+4. the website will generate an api and unique key for your custom api.
+5. now you can use that api to run CRUD operations in your website or application.
+6. Not even this, On website you can easily manage all the data that has been posted by your user.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+**Server:** Node, Express, Typescript, Mongoose, Mongodb
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Authors
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [@abhijain2003](https://github.com/abhijain2003)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## How it works
+1. you go to the website, 
+2. create your account.
+3. you create your custom schema for your api.
+4. the website will generate an api and unique key for your custom api.
+5. now you can use that api to run CRUD operations in your website or application.
+6. Not even this, On website you can easily manage all the data that has been posted by your user.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Server:** Node, Express, Typescript, Mongoose, Mongodb
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [@abhijain2003](https://github.com/abhijain2003)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Screenshots
+
+
+![App Screenshot](./src/Assets/s1.png)
+![App Screenshot](./src/Assets/s2.png)
+
+
