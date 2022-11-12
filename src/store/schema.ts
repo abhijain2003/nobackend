@@ -12,7 +12,7 @@ export const SchemaAPi = createApi({
         method: "GET",
       }),
     }),
-    getSchemaById: builder.query<void, void>({
+    getSchemaById: builder.query<void, String>({
       query: (id) => {
         return {
           url: `myusercustomschema/${id}`,
@@ -20,7 +20,7 @@ export const SchemaAPi = createApi({
         };
       },
     }),
-    deleteSchema: builder.mutation({
+    deleteSchema: builder.mutation<any, any>({
       query: (id) => {
         return {
           url: `myusercustomschema/${id}`,
