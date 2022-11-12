@@ -1,0 +1,123 @@
+#database {
+  width: 100vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-color: rgb(97, 42, 211);
+}
+
+#database nav {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+#database nav img {
+  width: 40px;
+  height: 40px;
+}
+
+#database nav p {
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 30px;
+  color: rgb(248, 248, 248);
+}
+
+#database hr {
+  width: 90%;
+  border: 1px solid #eee;
+}
+
+#database main {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  height: fit-content;
+  margin: 40px auto;
+}
+
+#database main label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: rgb(248, 248, 248);
+}
+
+#database main .selectDiv {
+  display: flex;
+  width: max-content;
+  margin: 0 auto;
+  gap: 5px;
+  align-items: center;
+}
+
+#database main .selectDiv select:focus {
+  outline: none;
+}
+
+#database main .selectDiv select {
+  width: max-content;
+  height: 50px;
+  margin: 0px auto;
+  border-radius: 18px;
+}
+
+#database main .selectDiv button {
+  width: 50px;
+  height: 50px;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+#database main .Ruling {
+  display: flex;
+  flex-direction: column;
+}
+
+#database main .Ruling .rules {
+  width: 50%;
+  margin: 20px auto 0px;
+  text-align: left;
+  color: rgb(248, 248, 248);
+  background-color: rgb(48, 48, 48);
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  #database main .Ruling .rules {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #database main .Ruling .rules {
+    width: 90%;
+  }
+}
+
+.renderData {
+  width: max-content;
+  margin: auto;
+}
+
+._id {
+  color: rgb(248, 248, 248);
+  cursor: pointer;
+}
+
+.oneTimeData {
+  display: none;
+}
+
+.labelValDiv {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}

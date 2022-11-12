@@ -1,0 +1,89 @@
+section {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+section nav {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+section nav img {
+  width: 40px;
+  height: 40px;
+}
+
+section nav p {
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 30px;
+  color: #11141c;
+}
+
+section hr {
+  width: 90%;
+  border: 1px solid #eee;
+}
+
+section main {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: fit-content;
+  margin: 40px auto;
+}
+
+section main .main-text {
+  opacity: 0.8;
+  font-size: 48px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #000000;
+}
+
+section main form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: max-content;
+  gap: 10px;
+  margin: 100px auto 0;
+}
+
+section main form input {
+  padding: 15px 10px;
+  border-radius: 20px;
+  border: none;
+  border: 1px solid #000000;
+}
+
+section main form button {
+  padding: 15px 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: #11141c;
+  cursor: pointer;
+}
+
+section main form input:focus {
+  outline: none;
+}
+
+section .link {
+  color: rgb(90, 30, 203);
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
