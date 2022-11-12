@@ -14,13 +14,13 @@ BACKPRESS.com is platform that allow you to create your own custom api, database
 
 ## API CALL UNDERSTANDING
 
-# GET REQUEST- your_API/
+### GET REQUEST- your_API/
 
-# DELETE REQUEST- your_API/unique_id_of_single_document
+### DELETE REQUEST- your_API/unique_id_of_single_document
 
-# PUT REQUEST- your_API/unique_id_of_single_document
+### PUT REQUEST- your_API/unique_id_of_single_document
 
-# GET SINGLE DOCUMENT REQUEST - your_API/unique_id_of_single_document
+### GET SINGLE DOCUMENT REQUEST - your_API/unique_id_of_single_document
 
 
 ## Tech Stack
