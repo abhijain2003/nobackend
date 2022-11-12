@@ -1,10 +1,13 @@
+# Inspiration
+I as a learning web development faces a lot of issues when building my api to make website interactive. its hard to write backend code and run the api.
+that's why I build this website for people who are learning development can use this platform to be familiar with how to use api, how to call or send query to api.
+and make their project interactive.
 
-# BACKPRESS
+# What is does
+BACKPRESS.com is platform that allow you to create your own custom api, database without having coding or backend development knowledge which you can use in your web or app to generate your own product in faster then 2 min. maggie.
 
-BACKPRESS.com is platform that allow you to create your own custom api, database without having coding or backend development knowledge which you can use in your web or app to generate your own product in 5 mins.
 
-
-## How it works
+# How it works
 1. you go to the website, 
 2. create your account.
 3. you create your custom schema for your api.
@@ -12,6 +15,30 @@ BACKPRESS.com is platform that allow you to create your own custom api, database
 5. now you can use that api to run CRUD operations in your website or application.
 6. Not even this, On website you can easily manage all the data that has been posted by your user.
 
+# How I build it
+     frontend - typescript, react, html, css
+     backend - typescript, nodejs, express
+     api hosting- heroku
+     database - mongodb 
+     statemanagement and api call - redux toolkit
+     
+# Challenges I ran into
+    making a platform like this was first time for me. I face my major challenges in building an api and writing algorithms for such product. time was little boud to actually complete it within 24 hours.
+    
+# Accomplishments that we're proud of
+   Completing it under time
+   successfully testing all cases of platform usage.
+   
+# What we learned
+    I learned typescript a lot this, was first I have worked with typescript.
+    
+# what next for backpress
+    There are lots of features I could have added if I would given some more time, but ya that's enough for beta version and in updates 
+    I am going to add nested objects and nested array into the schema, 
+    adding complete database management from website and work on security and authentications.
+    
+### website link - https://backpress.vercel.app/
+        
 ## API CALL UNDERSTANDING
 
 ### GET REQUEST- your_API/
@@ -51,33 +78,10 @@ when you send a POST/PUT request to your api you should follow a website policy 
       }
 
 
-## Tech Stack
-
-**Server:** Node, Express, Typescript, Mongoose, Mongodb
-
 
 ## Authors
 
 - [@abhijain2003](https://github.com/abhijain2003)
-
-
-## How it works
-1. you go to the website, 
-2. create your account.
-3. you create your custom schema for your api.
-4. the website will generate an api and unique key for your custom api.
-5. now you can use that api to run CRUD operations in your website or application.
-6. Not even this, On website you can easily manage all the data that has been posted by your user.
-
-## Tech Stack
-
-**Server:** Node, Express, Typescript, Mongoose, Mongodb
-
-
-## Authors
-
-- [@abhijain2003](https://github.com/abhijain2003)
-
 
 ## Screenshots
 
